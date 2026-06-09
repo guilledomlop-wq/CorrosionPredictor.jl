@@ -1,6 +1,22 @@
 name = "CorrosionPredictor"
 uuid = "a3b8c2d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d"
-authors = ["Guillermo Domínguez <guilledomlop@gmail.com>"]
 version = "0.1.0"
+authors = ["Guillermo Domínguez <guilledomlop@gmail.com>"]
 
 [deps]
+DomainSets = "5b8099bc-c8ec-5219-889f-1d9e522a28bf"
+MethodOfLines = "94925ecb-adb7-4558-8ed8-f975c56a0bf4"
+ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
+Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+
+[compat]
+DomainSets = "0.7.18"
+MethodOfLines = "0.11.12"
+ModelingToolkit = "11.26.8"
+OrdinaryDiffEq = "7.0.0"
+Roots = "3.0.0"
+Test = "1.11.0"
+Unitful = "1.28.0"
