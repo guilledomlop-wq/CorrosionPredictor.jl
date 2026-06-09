@@ -23,9 +23,20 @@ Currently, the platform natively models the degradation profiles of **Zinc** and
 
 ## 🔬 Examples & Clinical Scenarios
 
-The `examples/` directory contains ready-to-run simulations demonstrating the engine's capabilities in physiological environments:
+The `examples/` directory contains ready-to-run simulations demonstrating the engine's capabilities in physiological environments. 
+
+### 1. Stent Degradation & Biomechanical Pulsing
 * `run_stent_simulation.jl`: A standard 30-day degradation profile for a cardiovascular stent using the dynamic mixed-potential solver.
 * `mechanical_rupture_effect.jl`: A comparative study showing the effect of biomechanical arterial pulsing (periodic mechanical rupture of the protective oxide layer) versus a static tissue environment.
+
+### 2. Environmental Sensitivity & Toxicity Analysis
+* **Environmental Sensitivity Sweep** (`environmental_sensitivity_sweep.jl`): Evaluates how different bulk oxygen concentrations (from severe hypoxia to normoxia) impact the dynamic mixed potential and the corrosion rate over a 30-day period.
+
+  ![Environmental Sweep Results](results/environmental_sweep_results.png)
+
+* **Toxicity Threshold Analysis** (`toxicity_threshold_analysis.jl`): Tracks the local accumulation of Zn²⁺ ions over time to identify if the toxicological safety threshold is breached during early degradation bursts.
+
+  ![Toxicity Burst Analysis](results/toxicity_burst_analysis.png)
 
 ## 📦 Installation
 
