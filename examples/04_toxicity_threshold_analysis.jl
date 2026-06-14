@@ -1,5 +1,5 @@
 # =========================================================================
-# examples/02_toxicity_threshold_analysis.jl
+# examples/04_toxicity_threshold_analysis.jl
 # Demonstration of biological threshold crossing.
 # Tracks the local accumulation of Zn2+ ions over time and identifies
 # if the toxicological safety threshold is breached during early degradation.

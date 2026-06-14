@@ -27,7 +27,7 @@ The `examples/` directory contains ready-to-run simulations demonstrating the en
 
 ### 1. Stent Degradation & Biomechanical Pulsing
 * `01_run_stent_simulation.jl`: A standard 30-day degradation profile for a cardiovascular stent using the dynamic mixed-potential solver.
-* `04_mechanical_rupture_effect.jl`: A comparative study showing the effect of biomechanical arterial pulsing (periodic mechanical rupture of the protective oxide layer) versus a static tissue environment.
+* `02_mechanical_rupture_effect.jl`: A comparative study showing the effect of biomechanical arterial pulsing (periodic mechanical rupture of the protective oxide layer) versus a static tissue environment.
 
 ### 2. Environmental Sensitivity & Toxicity Analysis
 * **Environmental Sensitivity Sweep** (`03_environmental_sensitivity_sweep.jl`): Evaluates how different bulk oxygen concentrations (from severe hypoxia to normoxia) impact the dynamic mixed potential and the corrosion rate over a 30-day period.

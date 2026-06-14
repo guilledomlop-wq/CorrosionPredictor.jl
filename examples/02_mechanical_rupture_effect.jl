@@ -1,5 +1,5 @@
 # =========================================================================
-# examples/04_mechanical_rupture_effect.jl
+# examples/02_mechanical_rupture_effect.jl
 # Demonstration of the mechanical rupture effect on the protective oxide layer
 # caused by the physiological pulsing of the artery.
 # Compares a static tissue environment vs a pulsing biomechanical environment.
