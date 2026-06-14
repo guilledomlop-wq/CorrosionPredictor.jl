@@ -1,5 +1,5 @@
 # =========================================================================
-# examples/toxicity_threshold_analysis.jl
+# examples/02_toxicity_threshold_analysis.jl
 # Demonstration of biological threshold crossing.
 # Tracks the local accumulation of Zn2+ ions over time and identifies
 # if the toxicological safety threshold is breached during early degradation.
@@ -66,7 +66,7 @@ function run_toxicity_analysis()
     end
 
     # Create results directory if it does not exist
-    results_dir = joinpath(@__DIR__, "..", "results")
+    results_dir = joinpath(@__DIR__, "results")
     mkpath(results_dir)
 
     # Generate the clinical threshold plot

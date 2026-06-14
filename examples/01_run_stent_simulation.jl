@@ -1,5 +1,5 @@
 # =========================================================================
-# examples/run_stent_simulation.jl
+# examples/01_run_stent_simulation.jl
 # Demonstration of a 30-day degradation profile for a biodegradable cardiovascular stent.
 # =========================================================================
 
